@@ -19,29 +19,17 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PokedexTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                val listaPokemon = getPokemon()
+                PokemonGrid(listaPokemon)
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
 
-@Preview(showBackground = true)
+//@Preview
 @Composable
-fun GreetingPreview() {
-    PokedexTheme {
-        Greeting("Android")
-    }
+fun pruebaItem(){
+    PokemonFilaItem(Pokemon("Darkrai","Siniestro","",R.drawable.darkrai)
+    )
 }

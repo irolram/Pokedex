@@ -3,8 +3,8 @@ package com.example.pokedex
 import androidx.annotation.DrawableRes
 
 data class Pokemon(
-    val Nombre: String,
-    val Tipo1: String,
-    val Tipo2: String,
-    @DrawableRes var Sprite: Int
+    val nombre: String,
+    val tipo1: String,
+    val tipo2: String,
+    @DrawableRes var sprite: Int
 )

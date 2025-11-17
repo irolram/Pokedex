@@ -2,6 +2,7 @@ package com.example.pokedex
 
 import androidx.compose.runtime.Composable
 
+
 @Composable
 
 fun getPokemon():List<Pokemon>{
@@ -37,3 +38,8 @@ fun getPokemon():List<Pokemon>{
 
     )
 }
+
+
+
+
+
