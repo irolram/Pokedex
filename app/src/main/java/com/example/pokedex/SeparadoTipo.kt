@@ -46,7 +46,7 @@ fun PokemonAgrupadoPorTipo(lista: List<Pokemon>) {
     }
 
     selectedPokemon?.let {
-        PokemonDetailDialog(pokemon = it, onDismiss = {})
+        PokemonDetailDialog(pokemon = it, onDismiss = { selectedPokemon = null })
     }
 }
 

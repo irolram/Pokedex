@@ -15,8 +15,8 @@ enum class Tipo(val color: Color) {
     ACERO(Color(0xFFB0BEC5)),
     PSIQUICO(Color(0xFFBA68C8)),
     DRAGON(Color(0xFF9575CD)),
-    ROCA(Color(0xFFBDB76B)),       // Marrón claro similar a piedra
-    FANTASMA(Color(0xFF7B68EE)),   // Púrpura fantasma
-    NORMAL(Color(0xFFA8A878))      // Gris claro para Normal
+    ROCA(Color(0xFFBDB76B)),
+    FANTASMA(Color(0xFF7B68EE)),
+    NORMAL(Color(0xFFA8A878))
 }
 
